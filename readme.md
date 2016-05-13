@@ -105,7 +105,7 @@ Combined with a few python scripts, J.A.R.V.I.S now performs quite a few tasks:
 - ### Speech Recognition
     `pip install SpeechRecognition`
 
-- ### Audio is required for microphone input
+- ### PyAudio is required for microphone input
     `pip install pyaudio`
 
 - ### alsaaudio: (For Volume Control)
@@ -114,10 +114,10 @@ Combined with a few python scripts, J.A.R.V.I.S now performs quite a few tasks:
 - ### ttsx: (Offline Text to Speech Service)
     `pip install pyttsx`
 
-- ### gTS: (Google Text to Speech service)
+- ### gTTS: (Google Text to Speech service)
     `pip install gTTS`
 
-- ### game: (For audio playback with gTTS)
+- ### PyGame: (For audio playback with gTTS)
     ```
     sudo apt-get build-dep python-pygame<br>
     sudo apt-get install mercurial<br>
